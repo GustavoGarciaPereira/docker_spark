@@ -1,0 +1,6 @@
+docker run -it --rm -p 8080:8080 -p 4040:4040 spark-local
+
+docker build -t spark-local .
+
+docker run -it --rm pyspark-app
+docker build -t pyspark-app .
