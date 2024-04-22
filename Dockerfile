@@ -44,6 +44,8 @@ ENV PATH $PATH:$SPARK_HOME/bin
 
 # Copy the start script to the container
 COPY start-spark.sh /app/start-spark.sh
+COPY requirements.txt /app/requirements.txt
+RUN pip install -r /app/requirements.txt
 RUN chmod +x /app/start-spark.sh
 
 # Expose the Spark UI port
