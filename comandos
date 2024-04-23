@@ -1,3 +1,4 @@
+#criar docker exemplo dos docandos
 docker run -it --rm -p 8080:8080 -p 4040:4040 spark-local
 
 docker build -t spark-local .

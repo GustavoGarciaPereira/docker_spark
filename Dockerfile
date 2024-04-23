@@ -52,6 +52,8 @@ RUN chmod +x /app/start-spark.sh
 EXPOSE 4040
 
 # Command to run on container start
-# CMD ["/app/start-spark.sh"]
-CMD ["pyspark"]
-# CMD ["spark-shell"]
+CMD ["/app/start-spark.sh"]
+# # Command to run on container start
+# CMD ["python", "./your_script.py"]
+#CMD ["pyspark"]
+#CMD ["spark-shell"]
