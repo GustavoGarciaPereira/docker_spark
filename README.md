@@ -12,6 +12,7 @@ Este repositório contém os arquivos necessários para configurar um ambiente D
 
 #### Pré-requisitos
 
+
 -   Docker
 -   Python 3.8
 -   Acesso à internet para download das dependências
