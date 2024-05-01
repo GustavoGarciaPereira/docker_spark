@@ -1,0 +1,12 @@
+fastapi==0.75.0
+uvicorn==0.17.6
+pyspark==3.2.1
+dash==2.0.0
+dash-bootstrap-components==1.0.3
+plotly==5.5.0
+pandas==1.3.5
+requests
+werkzeug==1.0.1  # Versão que suporta get_current_traceback
+markupsafe==1.1.1  # Exemplo de versão, ajuste conforme necessário
+flask>=2.0
+Jinja2>=3.0
